@@ -1,7 +1,7 @@
-function Home(props){
+function Home(){
     return(
-        <div className="Home">
-
+        <div className="Home Page">
+            <img src="" alt="" />
         </div>
     )
 }
