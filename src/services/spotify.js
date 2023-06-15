@@ -2,7 +2,7 @@ import axios from "axios";
 
 const authEndPoint = "https://accounts.spotify.com/authorize";
 const clientID = "6ce09b7a5f384189ad4b5407f0c86e40";
-const redirectUrl = "http://netune.vercel.app";
+const redirectUrl = "https://netune.vercel.app";
 const scopes = ["user-library-read", "playlist-read-private"];
 
 export const loginEndPoint = `${authEndPoint}?client_id=${clientID}&redirect_uri=${encodeURIComponent(
