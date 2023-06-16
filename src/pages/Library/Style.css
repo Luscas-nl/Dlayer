@@ -1,6 +1,27 @@
 .Library{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.libraryInner{
+  display: flex;
+  width: 95%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 0px;
+  gap: 22px;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.libraryInner::-webkit-scrollbar{
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1085px) {
+    .Library{
+      padding: 0px;
+    }
 }

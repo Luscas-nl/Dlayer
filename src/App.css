@@ -11,8 +11,10 @@
 }
 
 .Page{
-  min-height: 100vh;
+  height: 100vh;
   width: calc(100% - 80px);
   margin-left: 80px;
   background-color: #151729;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at center left, transparent 0, #151729 120px ), repeating-linear-gradient( #181d4055, #181d40 );
 }

@@ -12,9 +12,11 @@ function Library() {
 
     return(
         <div className="Library Page">
+          <div className="libraryInner">
             {playlistsSP?.items.map((playlist) => (
-                <PlaylistCard name={playlist.name} img={playlist.images[0].url} />
+              <PlaylistCard name={playlist.name} img={playlist.images[0].url} songs={playlist.tracks.total}/>
             ))}
+          </div>
         </div>
     )
 }
